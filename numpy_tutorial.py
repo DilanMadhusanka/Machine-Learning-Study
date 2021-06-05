@@ -3,10 +3,10 @@ import time
 import sys
 
 l = range(1000)
-# print(sys.getsizeof(5)*len(l))
+print("size of python list", sys.getsizeof(5)*len(l))
 
 array = np.arange(1000)
-# print(array.size*array.itemsize)
+print("size of numpy array", array.size*array.itemsize)
 
 SIZE = 1000000
 
